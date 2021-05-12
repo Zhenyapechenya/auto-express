@@ -208,9 +208,16 @@
       </div>
 
       <form action="" class="contacts__form">
+
+        <!-- Hidden Required Fields -->
+        <input type="hidden" name="project_name" value="Auto Express">
+        <input type="hidden" name="admin_email" value="epsareva77@gmail.com">
+        <input type="hidden" name="form_subject" value="Footer form">
+        <!-- END Hidden Required Fields -->
+
         <h2 class="title contacts__title">Оставить заявку</h2>
-        <input class="contacts__input" type="text" placeholder="Как вас зовут?">
-        <input class="contacts__input" type="tel" placeholder="Ваш номер телефона">
+        <input name="Имя" class="contacts__input" type="text" placeholder="Как вас зовут?">
+        <input name="Телефон" class="contacts__input" type="tel" placeholder="Ваш номер телефона">
         <button class="button contacts__btn" type="submit">Отправить заявку</button>
       </form>
     </div>
